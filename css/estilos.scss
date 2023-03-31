@@ -1,0 +1,249 @@
+/* ------------------------------------ESTILOS BASE---------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    // -webkit-scrollbar: ;
+    // -webkit-scrollbar-button: ;
+    // -webkit-scrollbar-track: ;
+    // -webkit-scrollbar-track-piece: ;
+    // -webkit-scrollbar-thumb: ;
+    // -webkit-scrollbar-corner: ;
+    // -webkit-resize: ;
+    margin: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   }
+  
+   video {
+    border-style: none;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  
+  img {
+    display: block;
+    border-style: none;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+  }
+  
+  .texto, b, cite, i, strong, mark, em, u, s {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  // h4
+  .mini-titulo {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  
+    // h3
+  .sub-titulo {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+    // h2
+  .titulo {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+ 
+  // h1
+  .max-titulo {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }/*# sourceMappingURL=estilos.css.map */
+  
+  /* ------ESTILOS DE FLEX------- */
+  
+/*--------------------ESTILOS DEL MENU-----------------------*/ 
+
+header {
+  width: 100%;
+  background: rgba(231, 235, 234, 0.967);
+  position: fixed;
+  z-index: 100;
+  height: 50px;
+  margin-bottom: 50px;
+  color: #002808;
+}
+
+.nav--logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo, i {
+  font-size: 35px;
+  padding: 5px;
+}
+
+.btn-menu {
+  padding: 5px;
+  font-size: 35px;
+  cursor: pointer;
+  transition: all .3s;
+  font-weight: 300px;
+  margin-bottom: 10px;
+  color: #002808;
+}
+
+.btn-menu:hover {
+  color: #1c772b;
+}
+
+.menu {
+  position: fixed;
+  background: rgba(231, 235, 234, 0.967);
+  width: 100%;
+  height: 100vh;
+  display: block;
+  margin-top: -20px;
+  z-index: 2;
+  display: none;
+}
+
+.menu ul {
+  width: 100%;
+  height: 100vh;
+}
+
+.menu li {
+  text-align: center;
+  margin: auto;
+  padding: 50px;
+}
+
+.menu a {
+  padding: 50px;
+  text-decoration: none;
+  color: #000;
+  font-size: 27px;
+  font-weight: 400;
+  transition: all .3s;
+}
+
+.menu a:hover {
+ font-weight: 700;
+}
+
+
+// ----------------------HOME--------------
+
+.home {
+  width: 100%;
+}
+
+.home .home__banner--img {
+  margin-top: 50px;
+  position: relative;
+  margin: auto;
+  height: 80vh;
+}
+
+.home .home__banner--img::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: linear-gradient(to bottom, rgba(231, 235, 234, 0.667) 10%, rgba(155, 223, 210, 0.747), rgba(255, 255, 255, 0.952));
+  z-index: 1;
+}
+
+.home .home__banner--img img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.home .home__banner--txt {
+  position: absolute;
+  top: 60px;
+  z-index: 99;
+  padding: 5px;
+}
+
+.home .home__banner--txt .max-titulo {
+  font-size: 40px;
+  color: #002808;
+}
+
+.home .home__banner--txt .texto {
+  font-size: 25px;
+  color: #002808;
+}
+
+.home .home__form {
+  position: absolute;
+   background: #002808;
+   color: #ffffffcf;
+   padding: 10px;
+   width: 90%;
+   margin: auto;
+   top: 450px;
+   z-index: 45;
+   right: 0;
+   left: 0;
+   text-align: center;
+   border-radius: 5px;
+}
+
+.home .home__form form {
+  text-align: left;
+}
+
+.home .home__form .home__form--label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+.home .home__form .home__form--input {
+  margin-bottom: 10px; 
+  width: 90%;
+   padding: 8px;
+   border-radius: 5px;
+  color: #002808;
+}
+
+.home__info {
+  margin-top: 300px;
+}
+
+/*-----------------------ESTILOS RESPONSIVE-----------------------*/ 
+
+@media screen and (min-width: 480px) {
+  
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1600px) {
+  
+}
+
